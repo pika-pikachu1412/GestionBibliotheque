@@ -1,0 +1,6 @@
+projectKey=GestionBibliotheque
+serverUrl=http://localhost:9000
+serverVersion=24.12.0.100206
+dashboardUrl=http://localhost:9000/dashboard?id=GestionBibliotheque
+ceTaskId=3033d84a-2705-4ee6-9262-2486f1fd4dc5
+ceTaskUrl=http://localhost:9000/api/ce/task?id=3033d84a-2705-4ee6-9262-2486f1fd4dc5

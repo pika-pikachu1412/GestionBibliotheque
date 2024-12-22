@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.bibliotheque.BibliothequeTest" time="0.055" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.bibliotheque.BibliothequeTest" time="0.095" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\ouiss\AppData\Local\Temp\surefire10953034992503063776\surefirebooter10804695785395993090.jar C:\Users\ouiss\AppData\Local\Temp\surefire10953034992503063776 2024-12-21T20-33-00_105-jvmRun1 surefire14915996034618165972tmp surefire_04657154391503891206tmp"/>
+    <property name="sun.java.command" value="C:\Users\ouiss\AppData\Local\Temp\surefire15820820974472915295\surefirebooter4234424349506763414.jar C:\Users\ouiss\AppData\Local\Temp\surefire15820820974472915295 2024-12-23T00-02-01_640-jvmRun1 surefire12402950084853021793tmp surefire_013410819768884513496tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ouiss\Documents\5gi\QualitéLogicielle\GestionBibliotheque\target\test-classes;C:\Users\ouiss\Documents\5gi\QualitéLogicielle\GestionBibliotheque\target\classes;C:\Users\ouiss\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\ouiss\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ouiss\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\ouiss\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ouiss\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\ouiss\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\ouiss\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ouiss\AppData\Local\Temp\surefire10953034992503063776\surefirebooter10804695785395993090.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ouiss\AppData\Local\Temp\surefire15820820974472915295\surefirebooter4234424349506763414.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,11 +56,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testEmprunterRetournerLivre" classname="com.example.bibliotheque.BibliothequeTest" time="0.015"/>
-  <testcase name="testModifierLivre" classname="com.example.bibliotheque.BibliothequeTest" time="0.001"/>
-  <testcase name="testSauvegardeEtChargement" classname="com.example.bibliotheque.BibliothequeTest" time="0.018"/>
+  <testcase name="testEmprunterRetournerLivre" classname="com.example.bibliotheque.BibliothequeTest" time="0.029"/>
+  <testcase name="testModifierLivre" classname="com.example.bibliotheque.BibliothequeTest" time="0.003"/>
+  <testcase name="testSauvegardeEtChargement" classname="com.example.bibliotheque.BibliothequeTest" time="0.031"/>
   <testcase name="testSupprimerLivre" classname="com.example.bibliotheque.BibliothequeTest" time="0.002"/>
-  <testcase name="testRechercherParId" classname="com.example.bibliotheque.BibliothequeTest" time="0.001"/>
-  <testcase name="testAjouterLivre" classname="com.example.bibliotheque.BibliothequeTest" time="0.001"/>
+  <testcase name="testRechercherParId" classname="com.example.bibliotheque.BibliothequeTest" time="0"/>
+  <testcase name="testAjouterLivre" classname="com.example.bibliotheque.BibliothequeTest" time="0"/>
   <testcase name="testRechercherParTitreOuAuteur" classname="com.example.bibliotheque.BibliothequeTest" time="0"/>
 </testsuite>
